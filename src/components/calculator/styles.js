@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 356px;
-  z-index:999;
   border-radius: 48px;
 
   background: #1c050e;

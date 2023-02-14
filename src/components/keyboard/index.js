@@ -69,6 +69,7 @@ function Keyboard() {
     <>
       <div>
         <Swapper>
+        <h1 style={{color:"#fff", fontWeight:300, fontSize:24, marginBottom:"8px"}}>Calculator</h1>
           <Div>
             <Result>
               <Icon>

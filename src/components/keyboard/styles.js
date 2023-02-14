@@ -78,8 +78,7 @@ export const Swapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: -999;
-  height: 180px;
+   height: 180px;
   justify-content: center;
   border-top-left-radius: 48px;
   border-top-right-radius: 48px;
