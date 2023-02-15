@@ -7,8 +7,6 @@ import {
   ButtonQ,
   Swapper,
   Div,
-  DivCounters,
-  Text,
   Result,
   Icon,
   Resulted,
@@ -69,7 +67,7 @@ function Keyboard() {
     <>
       <div>
         <Swapper>
-        <h1 style={{color:"#fff", fontWeight:300, fontSize:24, marginBottom:"8px"}}>Calculator</h1>
+        <h2>Calculator</h2>
           <Div>
             <Result>
               <Icon>
@@ -101,8 +99,9 @@ function Keyboard() {
         </Swapper>
       </div>
       <Container>
-        <ButtonS onClick={clear}>C</ButtonS>
-        <ButtonP onClick={changeSign}><svg
+        <ButtonS onClick={clear}> C </ButtonS>
+        <ButtonP onClick={changeSign}>
+          <svg
             width="28"
             height="28"
             viewBox="0 0 28 28"
@@ -133,57 +132,28 @@ function Keyboard() {
               d="M14.875 20.125C14.875 19.6418 15.2668 19.25 15.75 19.25H24.5C24.9832 19.25 25.375 19.6418 25.375 20.125C25.375 20.6082 24.9832 21 24.5 21H15.75C15.2668 21 14.875 20.6082 14.875 20.125Z"
               fill="#EBEBEB"
             />
-          </svg></ButtonP>
-        <ButtonP onClick={porcentage}>%</ButtonP>
-        <ButtonT onClick={operatorHandler} value="/">
-          /
-        </ButtonT>
+          </svg>
+          </ButtonP>
+        <ButtonP onClick={porcentage}> % </ButtonP>
+        <ButtonT onClick={operatorHandler} value="/"> / </ButtonT>
 
-        <ButtonP onClick={inputNum} value={7}>
-          7
-        </ButtonP>
-        <ButtonP onClick={inputNum} value={8}>
-          8
-        </ButtonP>
-        <ButtonP onClick={inputNum} value={9}>
-          9
-        </ButtonP>
-        <ButtonT onClick={operatorHandler} value="X">
-          X
-        </ButtonT>
+        <ButtonP onClick={inputNum} value={7}> 7 </ButtonP>
+        <ButtonP onClick={inputNum} value={8}> 8 </ButtonP>
+        <ButtonP onClick={inputNum} value={9}> 9 </ButtonP>
+        <ButtonT onClick={operatorHandler} value="X"> X </ButtonT>
 
-        <ButtonP onClick={inputNum} value={4}>
-          4
-        </ButtonP>
-        <ButtonP onClick={inputNum} value={5}>
-          5
-        </ButtonP>
-        <ButtonP onClick={inputNum} value={6}>
-          6
-        </ButtonP>
-        <ButtonT onClick={operatorHandler} value="-">
-          -
-        </ButtonT>
+        <ButtonP onClick={inputNum} value={4}> 4 </ButtonP>
+        <ButtonP onClick={inputNum} value={5}> 5 </ButtonP>
+        <ButtonP onClick={inputNum} value={6}> 6 </ButtonP>
+        <ButtonT onClick={operatorHandler} value="-"> - </ButtonT>
 
-        <ButtonP onClick={inputNum} value={1}>
-          1
-        </ButtonP>
-        <ButtonP onClick={inputNum} value={2}>
-          2
-        </ButtonP>
-        <ButtonP onClick={inputNum} value={3}>
-          3
-        </ButtonP>
-        <ButtonT onClick={operatorHandler} value="+">
-          +
-        </ButtonT>
+        <ButtonP onClick={inputNum} value={1}> 1 </ButtonP>
+        <ButtonP onClick={inputNum} value={2}> 2 </ButtonP>
+        <ButtonP onClick={inputNum} value={3}> 3 </ButtonP>
+        <ButtonT onClick={operatorHandler} value="+"> + </ButtonT>
 
-        <ButtonP onClick={inputNum} value={0}>
-          0
-        </ButtonP>
-        <ButtonP onClick={inputNum} value={"."}>
-          ,
-        </ButtonP>
+        <ButtonP onClick={inputNum} value={0}> 0 </ButtonP>
+        <ButtonP onClick={inputNum} value={"."}> , </ButtonP>
         <ButtonQ onClick={calculate}>
           <svg
             width="28"
