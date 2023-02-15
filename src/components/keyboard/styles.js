@@ -174,10 +174,10 @@ export const ButtonQ = styled.button`
   justify-content: center;
   align-items: center;
   
-  width: 64px;
-  height: 64px;
+  width: 217%;
+  height: 58px;
   
-  border-radius: 999px;
+ border-radius:14px;
   font-size: 24px;
   font-weight: 400;
   
