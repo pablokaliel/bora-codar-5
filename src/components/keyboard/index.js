@@ -184,7 +184,7 @@ function Keyboard() {
         <ButtonP onClick={inputNum} value={0}>
           0
         </ButtonP>
-        <ButtonP onClick={inputNum} value={","}>
+        <ButtonP onClick={inputNum} value={"."}>
           ,
         </ButtonP>
         <ButtonQ onClick={calculate}>
