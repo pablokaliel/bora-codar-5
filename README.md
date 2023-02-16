@@ -20,3 +20,10 @@
 </table>
 
 <p>O Desafio consiste em reproduzir o layout de uma calculadora e assim melhorando e fazendo suas funcionalidades.</p>
+
+
+<div align="center">
+<h1>Resultado</h1>
+<img src="https://user-images.githubusercontent.com/104238801/219379929-2995220f-b180-4bed-8650-3f9f60a4bb65.png" width="700px" />
+</div>
+
