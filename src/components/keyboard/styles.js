@@ -24,10 +24,9 @@ export const ButtonP = styled.button`
   line-height: 28px;
   font-weight: 400;
   opacity:0.8;
-  @media screen and (max-width:550px){
-    opacity:1;
-  }
-  background-color: transparent !important;
+
+  background-color: transparent;
+  
   border: 3px solid #fff;
   box-shadow: 
   0 0 0.2rem #bc13fe,
@@ -36,6 +35,7 @@ export const ButtonP = styled.button`
   0 0 1px #ff00ff52,
   0 0 0px #ff00ff6b,
   inset 0 0 4px #ff00ff63;
+ 
   text-shadow:
   0 0 7px #fff,
   0 0 10px #fff,
@@ -45,9 +45,10 @@ export const ButtonP = styled.button`
   0 0 92px #bc13fe,
   0 0 102px #bc13fe,
   0 0 151px #bc13fe;
-  
 
-  
+  @media screen and (max-width:550px){
+    opacity:1;
+  }
 
   :hover {
     opacity: 1;
@@ -57,9 +58,7 @@ export const ButtonP = styled.button`
 export const ButtonS = styled.button`
   display: flex;
   opacity:0.8;
-  @media screen and (max-width:550px){
-    opacity:1;
-  }
+ 
   transition: all 0.2 ease-in;
   justify-content: center;
   align-items: center;
@@ -72,6 +71,7 @@ export const ButtonS = styled.button`
  
   color: #ff1b79;
   background-color: transparent;
+  
   border: 3px solid #fff;
   box-shadow:
   0 0 0.2rem #f00,
@@ -93,7 +93,9 @@ export const ButtonS = styled.button`
   font-weight: 400;
   line-height: 28px;
 
-  
+  @media screen and (max-width:550px){
+    opacity:1;
+  }
 
   :hover {
     opacity: 1;
@@ -121,19 +123,19 @@ export const Swapper = styled.div`
   0 0 0.8rem #f0f,
   0 0 2.8rem #f0f,
   inset 0 0 1.3rem #f0f;
-
-  
 `;
 
 export const Div = styled.div`
   height: 100px;
   width: 100%;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
   border: 3px solid #fff;
+  border-radius: 8px;
   box-shadow:
   0 0 0.2rem #fff,
   0 0 0.2rem #fff,
@@ -141,7 +143,6 @@ export const Div = styled.div`
   0 0 0.8rem #ff00ff78,
   0 0 2.8rem #ff00ff75,
   inset 0 0 1.3rem #ff00ff94;
-  border-radius: 8px;
 `;
 
 export const Result = styled.div`
@@ -165,9 +166,7 @@ export const Resulted = styled.h1`
 export const ButtonT = styled.button`
   display: flex;
   opacity:0.8;
-  @media screen and (max-width:550px){
-    opacity:1;
-  }
+
   transition: all 0.2 ease-in;
   justify-content: center;
   align-items: center;
@@ -178,8 +177,9 @@ export const ButtonT = styled.button`
   border-radius: 999px;
   font-size: 28px;
   font-weight: 400;
-  background-color: transparent;
   line-height: 28px;
+  
+  background-color: transparent;
   box-shadow:
   0 0 0.2rem #10ff00,
   0 0 6px #10ff00,
@@ -187,6 +187,7 @@ export const ButtonT = styled.button`
   0 0 1px #10ff00,
   0 0 0px #10ff00,
   inset 0 0 4px #10ff00;
+  
   text-shadow:
   0 0 7px #10ff00,
   0 0 10px #10ff00,
@@ -197,39 +198,44 @@ export const ButtonT = styled.button`
   0 0 102px #10ff00,
   0 0 151px #10ff00;
 
+  @media screen and (max-width:550px){
+    opacity:1;
+  }
+
   :hover {
     opacity: 1;
   }
-  
 `;
 
 export const ButtonQ = styled.button`
   display: flex;
   opacity:0.8;
-  @media screen and (max-width:550px){
-    opacity:1;
-  }
+
   transition: all 0.2 ease-in;
   justify-content: center;
   align-items: center;
 
   width: 217%;
   height: 58px;
+  
   background-color: transparent;
-  box-shadow: 0 0 0.2rem #ffd200,
-   0 0 6px #ffd200,
-   0 0 12px #ffd200,
-
-    0 0 1px #ffd200,
-     0 0 0px #ffd200,
-     inset 0 0 4px #ffd200;
+  box-shadow:
+  0 0 0.2rem #ffd200,
+  0 0 6px #ffd200,
+  0 0 12px #ffd200,
+  0 0 1px #ffd200,
+  0 0 0px #ffd200,
+  inset 0 0 4px #ffd200;
+  
   border-radius: 14px;
   font-size: 24px;
   font-weight: 400;
 
   line-height: 28px;
 
-  
+  @media screen and (max-width:550px){
+    opacity:1;
+  }
 
   :hover {
     opacity: 1;
