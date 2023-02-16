@@ -5,7 +5,8 @@ export default createGlobalStyle`
 *{
   margin:0;
   padding:0;
-  box-sizing: border-box;
+  box-sizing: border-box; 
+  color:#fff;
 }
 
 body{
@@ -17,7 +18,7 @@ body{
   place-content:center;
   
   font-family: "Noto Sans",sans-serif;
-  background: #c58989;
+  background: radial-gradient(circle, rgba(79,0,125,1) 17%, rgba(45,0,85,1) 58%, rgba(28,0,66,1) 97%);
 }
 
 button{
