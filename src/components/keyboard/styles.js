@@ -19,7 +19,7 @@ export const ButtonP = styled.button`
   width: 64px;
   height: 64px;
 
-  border-radius: 999px;
+  border-radius: 11px;
   font-size: 24px;
   line-height: 28px;
   font-weight: 400;
@@ -66,7 +66,7 @@ export const ButtonS = styled.button`
   width: 64px;
   height: 64px;
 
-  border-radius: 999px;
+  border-radius: 11px;
   font-size: 24px;
  
   color: #ff1b79;
@@ -128,7 +128,10 @@ export const Swapper = styled.div`
 export const Div = styled.div`
   height: 100px;
   width: 100%;
-
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: "…";
+  word-wrap: break-word;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -174,7 +177,7 @@ export const ButtonT = styled.button`
   width: 64px;
   height: 64px;
 
-  border-radius: 999px;
+  border-radius: 11px;
   font-size: 28px;
   font-weight: 400;
   line-height: 28px;

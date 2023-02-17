@@ -11,6 +11,7 @@ import {
   Icon,
   Resulted,
 } from "./styles";
+
 function Keyboard() {
   const [num, setNum] = useState(0);
   const [oldnum, setOldNum] = useState(0);
@@ -54,9 +55,6 @@ function Keyboard() {
     } else if (operator === "X") {
       setNum(parseFloat(oldnum) * parseFloat(num));
     } else if (operator === "-") {
-      console.log(oldnum);
-      console.log(num);
-      console.log(oldnum - num);
       setNum(parseFloat(oldnum) - parseFloat(num));
     } else if (operator === "+") {
       setNum(parseFloat(oldnum) + parseFloat(num));
